@@ -7,7 +7,40 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
+}
+.dashboard {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.selectors {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.selector {
+  width: 23%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #000;
+  background-color: #000;
+  color: #fff;
+}
+
+.charts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.chart {
+  width: 48%;
+  height: 300px;
+  margin-bottom: 20px;
+  background-color: #000;
 }
